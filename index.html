@@ -1,0 +1,41 @@
+<html lang="ja">
+<meta charset="utf-8">
+<head>
+  <title>ポータル</title>
+    <body>
+    <TABLE width="100%" border="1">
+      <TBODY>
+        <TR>
+          <td align= "TOP" width= "20%" height="100%">
+            <H4>業務準備</H4>
+            <DIV class="side" align="left">
+              <各種システム><br>
+              <掲示板><br>
+              <関連><br>
+              <ルール><br>
+              <input type="button" value="展開１" onclick="clickBtn1()"/>
+            　<input type="button" value="展開２" onclick="clickBtn2()"/>
+              <br>
+              <b>
+                <div onclick="obj1=document.getElementById('5/13 我が家の怪談').style;
+                              obj1.display=(obj1.display=='none')?'block':'none';">
+                  <a style="cursor:pointer;">5/13 我が家の怪談</a>
+                </div>
+                <div id="5/13 我が家の怪談" style="display:none; clear:both;">
+                  <h4>昨晩のことだった！<br><hr></h4>
+                </div>
+              </b>
+          <td colspan= "2" width="50%" height="400">
+            <DIV class="side" align="center">
+              <font size="6">周知事項</font><br>
+              内容は<font color="red">タイトルをクリック</font>展開して下さい／検索はCtrl+F(タイトルのみ検索)<br>
+              <iframe Src="news.html" id="news" Width="95%" Height="350" name="mintag"></iframe><br>
+            </DIV>
+          </td>
+        </TR>
+      </TBODY>
+    </TABLE>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</head>
+</html>
