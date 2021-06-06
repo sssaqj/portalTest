@@ -20,10 +20,10 @@ function clickBtn2(){
 
 
   if(obj2_youso !== undefined) {
-    if(target.style.display=="none"){
-      target.style.display="block";
+    if(obj2_youso.style.display=="none"){
+      obj2_youso.style.display="block";
       } else {
-        target.style.display ="none";
+        obj2_youso.style.display ="none";
     }
   }
 }
